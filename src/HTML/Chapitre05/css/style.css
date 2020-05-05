@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+body{
+    background-image: url("../img/bg.jpg");
+ background-color: #cccccc;
+ background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  font-family: 'Pacifico', cursive;
+}
+#content{
+    background-color: white;
+    width: 75%;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    
+}
+h1{
+    text-align: center;
+}
+img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      
+}
+.title
+{
+    text-align: center;
+}
+h2{
+    background-color: #cccccc;
+    width: 100%;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+.red{
+    color: tomato;
+}
+.blue{
+    color: blueviolet;
+}
+ul{
+    text-align: left;
+}
