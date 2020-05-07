@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+body{
+    background-image: url("../img/bg.jpg");
+ background-color: #cccccc;
+ background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  font-family: 'Pacifico', cursive;
+}
+#content{
+    background-color: white;
+    width: 75%;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    
+}
+h1{
+    text-align: center;
+    text-shadow : 5px 5px 5px red;
+}
+img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border : 3px blue solid;
+        border-radius : 25px;
+        box-shadow : 5px 5px 5px red;
+
+}
+.title
+{
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+}
+.title p{
+    font-size: large;
+}
+h2{
+    background-color: #cccccc;
+    width: 100%;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+.red{
+    color: tomato;
+}
+.blue{
+    color: blueviolet;
+}
+ul{
+    text-align: left;
+    font-size: 20pt;
+}
+
+a:hover
+{
+    color:red;
+}
+
+a:active
+{
+    color:olivedrab;
+}
+a:focus
+{
+    color:orchid;
+}
+a:visited
+{
+    color: purple;
+}

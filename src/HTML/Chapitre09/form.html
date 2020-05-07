@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>form</title>
+</head>
+<body>
+    <div id="content">
+        <form action="" method="post">
+            <h1 id="bigtext">Formulaire de contact</h1>
+            <fieldset>
+                <legend>Vos coordonées</legend>
+                <label for="nom">Nom : </label><input type="text" name="nom" autofocus required><br>
+                <label for="prenom">Prénom : </label><input type="text" name="prenom" required><br>
+                <p>Sexe :</p>
+                <input type="radio" name="sexe" value="homme"><label for="homme"> Je suis un homme</label><br>
+                <input type="radio" name="sexe" value="femme"><label for="femme"> Je suis une femme</label>
+                <p>Adresse :</p>
+                <label for="rue">Rue : </label><input type="text" name="rue" required><br>
+                <label for="numero">Numéro : </label><input type="text" name="numero" required><br>
+                <label for="cp">Code Postal : </label><input type="number" name="cp" required min="1000" max="9999"><br>
+                <label for="ville">Ville : </label><input type="text" name="ville" required><br>
+            </fieldset>
+            <fieldset>
+                <legend>Vos besoins</legend>
+                <p>Sélectionnez le(s) domaine(s) de compétences</p>
+                <input type="checkbox" name="css"> <label for="css"> CSS</label><br>
+                <input type="checkbox" name="html"> <label for="html"> HTML</label><br>
+                <input type="checkbox" name="php"> <label for="php"> PHP</label><br>
+            </fieldset>
+            <fieldset>
+                <legend>Votre message</legend>
+                <textarea name="zone" rows="5" cols="60" maxlength="300"></textarea>
+
+            </fieldset>
+            <input type="reset" name="envoi" value="Vider le formulaire">
+            <input type="submit" name="envoi" value="Envoyer">
+
+        </form>
+    </div>
+    
+</body>
+</html>

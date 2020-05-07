@@ -1,0 +1,25 @@
+
+body{
+    background-image: url("bg.jpg");
+ background-color: #cccccc;
+ background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  font-family: 'Pacifico', cursive;
+}
+#content{
+    background-color: white;
+    width: 75%;
+    margin: 0 auto;
+    padding: 20px;
+    
+}
+#bigtext{
+    text-align: center;
+    font-size: 70pt;
+    font-weight: bolder;
+}
+.right{
+    text-align: right;
+    align-items: flex-end;
+}
