@@ -17,12 +17,16 @@ body{
 }
 h1{
     text-align: center;
+    text-shadow : 5px 5px 5px red;
 }
 img{
         display: block;
         margin-left: auto;
         margin-right: auto;
-      
+        border : 3px blue solid;
+        border-radius : 25px;
+        box-shadow : 5px 5px 5px red;
+
 }
 .title
 {
@@ -45,4 +49,23 @@ p{
 }
 ul{
     text-align: left;
+    text-emphasis: size 20px;
+}
+
+a:hover
+{
+    color:red;
+}
+
+a:active
+{
+    color:olivedrab;
+}
+a:focus
+{
+    color:orchid;
+}
+a:visited
+{
+    color: purple;
 }
