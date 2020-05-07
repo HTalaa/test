@@ -1,0 +1,34 @@
+body{
+    background-color: black;
+}
+table{
+    background-color:orangered;
+    width: 500px;
+    height: 500px;
+    color: white;
+    
+}
+table caption{
+    color: blanchedalmond;
+    font-size: xx-large;
+}
+
+.yellow{
+    background-color: yellow;
+    
+}
+.blue{
+    background-color: blue;
+    
+}
+
+.center{
+    text-align: center;
+}
+.top{
+    vertical-align: text-top;
+}
+
+.bottom{
+    vertical-align:bottom;
+}
