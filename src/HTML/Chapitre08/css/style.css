@@ -6,6 +6,7 @@ table{
     width: 500px;
     height: 500px;
     color: white;
+    text-align: center;
     
 }
 table caption{
@@ -22,9 +23,6 @@ table caption{
     
 }
 
-.center{
-    text-align: center;
-}
 .top{
     vertical-align: text-top;
 }
