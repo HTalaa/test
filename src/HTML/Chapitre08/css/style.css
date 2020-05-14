@@ -17,6 +17,12 @@ table caption{
     
     border-spacing: 30px;
 }
+
+.t3 {
+    border-collapse: separate;
+    border-spacing: 15px;
+    border:green 1px solid;
+  }
 .t2 td{
     margin: 5px;
 }
