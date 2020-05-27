@@ -23,7 +23,7 @@ public class LivrePapier extends Livre implements LectureInterface {
         System.out.println("lire lire livre papier");
     }
 
-    public void setNoPage(int noPage) {
+    private void setNoPage(int noPage) {
         if(noPage>=0)
             this.noPage = noPage;
     }

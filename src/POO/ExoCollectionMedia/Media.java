@@ -16,7 +16,7 @@ public class Media {
         return titre;
     }
 
-    public void setTitre(String titre) {
+    private void setTitre(String titre) {
         if(!titre.isBlank())
             this.titre = titre;
     }
@@ -25,7 +25,7 @@ public class Media {
         return nomAuteur;
     }
 
-    public void setNomAuteur(String nomAuteur) {
+    private void setNomAuteur(String nomAuteur) {
         if(!nomAuteur.isBlank())
             this.nomAuteur = nomAuteur;
     }
@@ -34,7 +34,7 @@ public class Media {
         return prix;
     }
 
-    public void setPrix(double prix) {
+    private void setPrix(double prix) {
         if(prix>5)
             this.prix = prix;
     }

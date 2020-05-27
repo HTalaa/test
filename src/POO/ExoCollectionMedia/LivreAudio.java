@@ -19,7 +19,7 @@ public class LivreAudio extends Livre implements AudioInterface  {
     public String getNomNarr() {
         return nomNarr;
     }
-    public void setNomNarr(String nomNarr) {
+    private void setNomNarr(String nomNarr) {
         if(!nomNarr.isBlank())
             this.nomNarr = nomNarr;
     }

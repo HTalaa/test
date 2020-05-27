@@ -15,7 +15,7 @@ public class BD extends Media implements LectureInterface{
         return nomDess;
     }
 
-    public void setNomDess(String nomDess) {
+    private void setNomDess(String nomDess) {
         this.nomDess = nomDess;
     }
 
@@ -23,7 +23,7 @@ public class BD extends Media implements LectureInterface{
         return nomScen;
     }
 
-    public void setNomScen(String nomScen) {
+    private void setNomScen(String nomScen) {
         this.nomScen = nomScen;
     }
 

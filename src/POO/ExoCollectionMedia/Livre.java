@@ -14,7 +14,7 @@ public abstract class Livre extends Media{
         return noDeChapitre;
     }
 
-    public void setNoDeChapitre(int noDeChapitre) {
+    private void setNoDeChapitre(int noDeChapitre) {
         if(noDeChapitre>0)
             this.noDeChapitre = noDeChapitre;
     }
@@ -23,7 +23,7 @@ public abstract class Livre extends Media{
         return resume;
     }
 
-    public void setResume(String resume) {
+    private void setResume(String resume) {
         this.resume = resume;
     }
     public void getAll(){
