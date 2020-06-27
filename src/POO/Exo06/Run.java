@@ -13,15 +13,19 @@ public class Run {
         Ingredient concombre = new Ingredient("concombre", 5);
         Ingredient ananas = new Ingredient("ananas", 5);
         Ingredient tomate = new Ingredient("tomate", 5);
-        Ingredient pate = new Ingredient("pate", 1 );
+        Ingredient pate = new Ingredient("pate", 5 );
 
 
-        //Vetement vetement1 = new Vetement("croco");
-        //Vetement vetement2 = new Vetement("marcos");
+        Pizza pizza=new Pizza("pizza",new ArrayList<>());
+        Pizza p1=new Pizza("p1");
+        p1.ingDeBase=oignon;
+        p1.voirIng();
+        p1.addIngredient(fromage);
+        p1.addIngredient(pate);
+        p1.addIngredient(ananas);
+        p1.addIngredient(pate);
+        p1.voirIng();
 
-        //System.out.println(Vetement.couleur);
-
-        //Vetement.couleur = "bleu";
 
     }
 }

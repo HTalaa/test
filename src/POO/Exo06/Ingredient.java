@@ -1,14 +1,14 @@
 package POO.Exo06;
 
 public class Ingredient {
-    private String nom;
+    private String nom="defaut";
     private int qtt;
 
     public Ingredient(String nom, int qtt) {
         //this.nom = nom;
         //this.qtt = qtt;
-        setNom(nom);
-        setQtt(qtt);
+        this.setNom(nom);
+        this.setQtt(qtt);
     }
 
     public String getNom() {
@@ -16,7 +16,7 @@ public class Ingredient {
     }
 
     public void setNom(String nom) {
-        if(nom !="")
+        if(!nom.isBlank())
             this.nom = nom;
         else
             System.out.println("le nom n'est pas valid");
