@@ -42,7 +42,7 @@ public class MediaFileManager {
                 if(stringMed.length == 4)
                 {
                     Media media = new Media(stringMed[0],stringMed[1],Double.parseDouble(stringMed[2]),MediaType.valueOf(stringMed[3]));
-                    medias.add(media);
+                    medias.add(media);//
                 }
             }
 
