@@ -1,8 +1,7 @@
 package POO.Bibliotheque;
 
 public enum MediaType {
-    LivrePapier,
-    LivreAudio,
+    Book,
     Album,
     BD
 }

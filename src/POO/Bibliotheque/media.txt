@@ -1,18 +1,4 @@
-my media/Hamid Talaa/44.29/Album
-new media/joseph/45.78/BD
-my media/Hamid Talaa/44.29/Album
-new media/joseph/45.78/BD
-my media/Hamid Talaa/44.29/Album
-new media/joseph/45.78/BD
-my media/Hamid Talaa/44.29/Album
-new media/joseph/45.78/BD
-my media/Hamid Talaa/44.29/Album
-new media/joseph/45.78/BD
-my media/Hamid Talaa/44.29/Album
-new media/joseph/45.78/BD
-my media/Hamid Talaa/44.29/Album
-new media/joseph/45.78/BD
-my media/Hamid Talaa/44.29/Album
-new media/joseph/45.78/BD
-my media/Hamid Talaa/44.29/Album
-new media/joseph/45.78/BD
+B-1/new media/joseph/45.78/Album/title1, title2, title3
+B-1/new media/joseph/45.78/Album/title1, title2, title3
+B-1/new media/joseph/45.78/Album/title1, title2, title3
+B-1/new media/joseph/45.78/Album/title1, title2, title3
