@@ -1,7 +1,9 @@
 package POO.Bibliotheque;
 
 
-public class Media {
+
+
+public abstract class Media {
     private String id;
     private String title;
     private String authorName;
@@ -11,6 +13,13 @@ public class Media {
 
 
     public Media(String id, String title, String authorName, double price, MediaType type) {
+        boolean titleLengthOk = (title.length() >= 1 && title.length() <= 500);
+        boolean authorNameLengthOK = (authorName.length() >= 1 && authorName.length() <= 300);
+        boolean priceValueOK = (price>0 && price<= 300);
+        boolean isNotBanned=true;
+        if (!titleLengthOk || !authorNameLengthOK || !priceValueOK || !isNotBanned ){
+            throw new InvalidMediaException(titleLengthOk, authorNameLengthOK, priceValueOK, isNotBanned );
+        }
         this.setId(id);
         this.setTitle(title);
         this.setAuthorName(authorName);
@@ -64,13 +73,16 @@ public class Media {
     public void setType(MediaType type) {
         this.type = type;
     }
-    public StringBuilder getAll(){
+
+    public String toString(){
         StringBuilder str=new StringBuilder();
         str.append("id: "+getId())
                 .append(" title: "+ getTitle())
                 .append(" author name:"+ getAuthorName())
                 .append(" price: "+ getPrice())
                 .append(" type : "+getType());
-        return str;
+        return str.toString();
     }
+
+
 }

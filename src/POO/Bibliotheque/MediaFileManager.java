@@ -24,6 +24,12 @@ public class MediaFileManager {
                 last=((Album)media).getListNameTitles().toString();
                 last=last.replaceAll("[\\[\\]]","");
             }
+            else if(media.getType()==MediaType.Book){
+                last=String.valueOf(((Book)media).getPageNumber());
+            }
+            else if(media.getType()==MediaType.BD){
+                last="";
+            }
             fw.append(media.getId())
                     .append('/')
                     .append(media.getTitle())
@@ -40,7 +46,7 @@ public class MediaFileManager {
             System.out.println(exc.getMessage());
         }
     }
-    public ArrayList<Media> getAll(){
+    public ArrayList<Media> getAll() throws Exception{
         BufferedReader br;
         ArrayList<Media> medias = new ArrayList<>();
         try {
@@ -59,6 +65,10 @@ public class MediaFileManager {
                         }
                         Album album = new Album(stringMed[0],stringMed[1],stringMed[2],Double.parseDouble(stringMed[3]),list);
                         medias.add(album);//
+                    }
+                    else if(MediaType.valueOf(stringMed[4])==MediaType.Book){
+                        Book book=new Book(stringMed[0],stringMed[1],stringMed[2],Double.parseDouble(stringMed[3]),Integer.parseInt(stringMed[5]));
+                        medias.add(book);
                     }
 
                     //medias.add(media);//

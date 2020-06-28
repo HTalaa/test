@@ -28,8 +28,9 @@ public class Album extends Media {
     public  void setListNameTitles(ArrayList<String> listNameTitles) {
         this.listNameTitles = listNameTitles;
     }
-    public StringBuilder getAll(){
-        return super.getAll().append(" name list: "+getListNameTitles().toString());
+    public String toString(){
+        StringBuilder str=new StringBuilder(super.toString());
+        return str.append(" name list: "+getListNameTitles().toString()).toString();
     }
 
 
