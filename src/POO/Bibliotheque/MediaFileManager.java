@@ -81,4 +81,7 @@ public class MediaFileManager {
         }
         return medias;
     }
+    public void  delete(String id){
+
+    }
 }
